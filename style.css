@@ -80,7 +80,6 @@ header .about-us-btn {
   color: #415679;
   border: none;
 }
-
 header .about-us-btn:hover {
   border: 1px solid #fee542;
   background-color: #415679;
@@ -106,7 +105,7 @@ header .arrow i {
 /* Header styling end */
 
 /* Portfolio styling */
-.portfolio {
+.main-portfolio {
   background: rgba(183, 201, 213, 0.3);
   height: 100vh;
   background-image: url(./img/makeup-img.jpg);
@@ -114,43 +113,43 @@ header .arrow i {
   background-position: left bottom;
   background-repeat: no-repeat;
 }
-.portfolio-heading {
+.portfolio-info {
   font-weight: bold;
   color: #333333;
-  padding-top: 84px;
-  padding-left: 320px;
+  padding-top: 80px;
+  padding-left: 255px;
 }
-.portfolio-heading h1 {
-  font-size: 50px;
+.portfolio-info-title {
+  font-size: 40px;
   line-height: 67px;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
-.portfolio-heading p {
+.portfolio-info-desc {
   width: 1030px;
-  padding-top: 40px;
   font-size: 20px;
   line-height: 36px;
 }
-.portfolio .content {
+.portfolio-content {
   padding-top: 80px;
   padding-left: 950px;
   font-weight: bold;
   color: #000000;
 }
-.portfolio .content h1 {
+.portfolio-content h1 {
   width: 459px;
   font-size: 40px;
   line-height: 67px;
   text-transform: uppercase;
 }
-.portfolio .content p {
+.portfolio-content p {
   margin-top: 20px;
   width: 500px;
   height: 233px;
   font-size: 20px;
   line-height: 36px;
 }
-.portfolio .content button {
+.portfolio-content button {
   margin-top: 30px;
   font-size: 18px;
   line-height: 20px;
@@ -163,13 +162,12 @@ header .arrow i {
   border: none;
   cursor: pointer;
 }
-
-.portfolio .content button:hover {
+.portfolio-content button:hover {
   border: 1px solid #fee542;
   background-color: #415679;
   color: #fee542;
 }
-.content button:focus {
+.portfolio-content button:focus {
   outline: none;
 }
 /* Portfolio styling end */
@@ -255,10 +253,9 @@ header .arrow i {
 .services {
   background: rgba(183, 201, 213, 0.3);
   background-image: url(./img/creative-img.png);
-  background-size: 800px;
+  background-size: 700px;
   background-repeat: no-repeat;
   background-position: right bottom;
-  height: 100vh;
 }
 .services .title {
   color: #000000;
@@ -270,9 +267,9 @@ header .arrow i {
   font-size: 55px;
   line-height: 67px;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 .services .title p {
-  padding-top: 40px;
   max-width: 1030px;
   height: 72px;
   font-size: 20px;
@@ -286,11 +283,11 @@ header .arrow i {
 .services .content h1 {
   margin-top: 80px;
   width: 400px;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 67px;
   text-transform: uppercase;
   color: #000000;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 .services .content p {
   width: 500px;
@@ -344,11 +341,11 @@ header .arrow i {
   background: rgba(183, 201, 213, 0.3);
 }
 .about-us-info {
-  padding-bottom: 40px;
-  padding-top: 90px;
-  padding-left: 230px;
   color: #000000;
   font-weight: bold;
+  padding-left: 234px;
+  padding-top: 90px;
+  margin-bottom: 20px;
 }
 .about-us-info .about-us-title {
   margin-bottom: 30px;
@@ -445,6 +442,11 @@ header .arrow i {
   letter-spacing: 0.1em;
   color: #415679;
   border: none;
+}
+.contact-forms button:hover {
+  border: 1px solid #fee542;
+  background-color: #415679;
+  color: #fee542;
 }
 .contact-forms button:focus {
   outline: none;
